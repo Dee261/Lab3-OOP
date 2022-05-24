@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62b6aef2-5cca-46bd-bfe9-4557d765c430" name="Changes" comment="Initial configuration">
-      <change afterPath="$PROJECT_DIR$/src/main/java/BasketballPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/CollegeBasketballPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ProBasketballPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/User.java" afterDir="false" />
+    <list default="true" id="62b6aef2-5cca-46bd-bfe9-4557d765c430" name="Changes" comment="Initial commit">
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
