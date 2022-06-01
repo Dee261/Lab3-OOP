@@ -5,7 +5,7 @@ Create a class with a method that decides whether a given year is a leap year or
 - It occurs after every 4 years e.g. 2008, 2012 were leap years
 - After 100 years a special rule applies i.e. 1900 is not a leap year but 2000 is a leap year. In these  cases, you need to check whether the year is divisible by 400 or not.
 
-## Exercise 2
+## Exercise2
 ### Part 1
 Create the following three classes:
 - Class A: Class should have no object variables nor should you specify a constructor for it. It only has the method public void a(), which prints a string "A".

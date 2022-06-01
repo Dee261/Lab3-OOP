@@ -1,7 +1,8 @@
+package Exercise3;
 public class Account {
 
-    private double bal;  //The current balance
-    private int accnum;  //The account number
+    private double bal;
+    private int accnum;
 
 
     public Account(int a) {
@@ -9,17 +10,17 @@ public class Account {
         accnum=a;
     }
 
-    public void deposit(double sum) {
-        if (sum>0)
-            bal+=sum;
+    public void deposit(double newBalance) {
+        if (newBalance>0)
+            bal+=newBalance;
         else
             System.err.println("Account.deposit(...): "
                     +"cannot deposit negative amount.");
     }
 
-    public void withdraw(double sum) {
-        if (sum>0)
-            bal-=sum;
+    public void withdraw(double newBalance) {
+        if (newBalance>0)
+            bal-=newBalance;
         else
             System.err.println("Account.withdraw(...): "
                     +"cannot withdraw negative amount.");
@@ -38,9 +39,10 @@ public class Account {
     }
 
     public final void print() {
-        //Don't override this,
-        //override the toString method
         System.out.println( toString() );
     }
 
 }
+
+
+
