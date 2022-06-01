@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62b6aef2-5cca-46bd-bfe9-4557d765c430" name="Changes" comment="Exercise 1,2,3." />
+    <list default="true" id="62b6aef2-5cca-46bd-bfe9-4557d765c430" name="Changes" comment="Assignment." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,6 +59,10 @@
       <recent name="Exercise3" />
       <recent name="Exercise2" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="Assignment" />
+      <recent name="Exercise1" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.AccountTester">
     <configuration name="Account" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -88,7 +92,7 @@
       </method>
     </configuration>
     <configuration name="LeapYear" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeapYear" />
+      <option name="MAIN_CLASS_NAME" value="Exercise1.LeapYear" />
       <module name="Lab3-OOP.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -108,19 +112,21 @@
       </method>
     </configuration>
     <configuration name="User" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="User" />
+      <option name="MAIN_CLASS_NAME" value="Assignment.User" />
       <module name="Lab3-OOP.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -150,6 +156,7 @@
       <workItem from="1653427047997" duration="4985000" />
       <workItem from="1654066376785" duration="8078000" />
       <workItem from="1654080283397" duration="2240000" />
+      <workItem from="1654082974628" duration="746000" />
     </task>
     <task id="LOCAL-00001" summary="Initial configuration">
       <created>1652691174410</created>
@@ -186,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654082677165</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Assignment.">
+      <created>1654083704127</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1654083704127</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,6 +222,7 @@
     <MESSAGE value="Initial configuration" />
     <MESSAGE value="Assignment" />
     <MESSAGE value="Exercise 1,2,3." />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercise 1,2,3." />
+    <MESSAGE value="Assignment." />
+    <option name="LAST_COMMIT_MESSAGE" value="Assignment." />
   </component>
 </project>
