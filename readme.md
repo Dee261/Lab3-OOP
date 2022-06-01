@@ -1,5 +1,9 @@
+#KATUMA,DOREEN EMMANUEL
+#2020-04-03601
+#BSC.IN COMPUTER SCIENCE
+
 # Exercises 
-## Exercise 1
+## Exercise1
 Create a class with a method that decides whether a given year is a leap year or not. A year is a leap if the following conditions are satisfied:
 - It has 366 days (instead of 365)
 - It occurs after every 4 years e.g. 2008, 2012 were leap years
@@ -54,9 +58,9 @@ Hints:
 - Be sure to test what you have done after each step.
 
 # Assignment
-In this assignment, you will create four classes, a base class, two child classes and a user class. The base class will be a BasketballPlayer class. The two child classes will be CollegeBasketballPlayer and ProBasketballPlayer. 
+In this assignment, you will create four classes, a base class, two child classes and a user class. The base class will be a Assignment.BasketballPlayer class. The two child classes will be Assignment.CollegeBasketballPlayer and Assignment.ProBasketballPlayer. 
 
-The BasketballPlayer class will have instance data of name, position, team (Strings), height, weight, agility, speed, ballHandling (ints) and all should be declared as protected instead of private. We will have 3 constructors, a 0 parameter constructor (all instance data are initialized to “unknown” or 0), a 3-parameter constructor which receives the 3 Strings and assigns the 3 String instance data to them and 0 to all int instance data, and one which receives a parameter for each instance data and assigns them all appropriately. 
+The Assignment.BasketballPlayer class will have instance data of name, position, team (Strings), height, weight, agility, speed, ballHandling (ints) and all should be declared as protected instead of private. We will have 3 constructors, a 0 parameter constructor (all instance data are initialized to “unknown” or 0), a 3-parameter constructor which receives the 3 Strings and assigns the 3 String instance data to them and 0 to all int instance data, and one which receives a parameter for each instance data and assigns them all appropriately. 
 
 Also create accessors for all instance data and a toString which will return at least the name, position, team and the value for a method you will write called getValue. The getValue method will test various instance data and return an int using nested if-else logic based on the table below. All methods should be public.
 
@@ -86,11 +90,11 @@ NOTE: empty “other conditions” mean “any values”, these would be used in
 
 Compile this class before continuing as you cannot implement the child classes without this one being compiled. Fix any syntax errors.
 
-Implement a CollegeBasketballPlayer to extend BasketballPlayer. It will have two instance data eligibilityRemaining (int) and role (String). Note: these can be protected or private as we do not plan to extend this class. Have 3 different constructors, a 0 param constructor, a 3 param constructor (name, position, team) and a constructor that receives all params. Use super(); for the 0 param constructor, super(…); for the other two constructors, passing the appropriate parameters. Assign eligibilityRemaining and role to either 4 and “bench” for the 0 and 3 parameter constructors or the proper params for the third constructor. Add accessors for these two instance data a new toString method which return super.toString() + “\t” + “…” where … is at least the role of this player (and the eligibilityRemaining if desired). Finally, add a method called draftable which returns a boolean based on the following logic:
+Implement a Assignment.CollegeBasketballPlayer to extend Assignment.BasketballPlayer. It will have two instance data eligibilityRemaining (int) and role (String). Note: these can be protected or private as we do not plan to extend this class. Have 3 different constructors, a 0 param constructor, a 3 param constructor (name, position, team) and a constructor that receives all params. Use super(); for the 0 param constructor, super(…); for the other two constructors, passing the appropriate parameters. Assign eligibilityRemaining and role to either 4 and “bench” for the 0 and 3 parameter constructors or the proper params for the third constructor. Add accessors for these two instance data a new toString method which return super.toString() + “\t” + “…” where … is at least the role of this player (and the eligibilityRemaining if desired). Finally, add a method called draftable which returns a boolean based on the following logic:
 
 - A player is draftable if he/she is a “starter” (role) whose value (as obtained by super.getValue()) > 4 or is a “bench” player (role) whose value >= 8.
 
-Compile this class and fix any errors. Implement ProBasketballPlayer by extending BasketballPlayer. Add 2 new instance data: yearsInLeague (int) and role (String). Add 3 constructors similar to what you had for CollegeBasketballPlayer. For the first two constructors, yearsInLeague should be initialized to 0 and role to “bench”. Add accessors for the two new instance data and a toString which will add to BasketballPlayer’s toString both yearsInLeague and role. Finally, implement a method called newContractValue which returns an int value based on the logic in the following table.
+Compile this class and fix any errors. Implement Assignment.ProBasketballPlayer by extending Assignment.BasketballPlayer. Add 2 new instance data: yearsInLeague (int) and role (String). Add 3 constructors similar to what you had for Assignment.CollegeBasketballPlayer. For the first two constructors, yearsInLeague should be initialized to 0 and role to “bench”. Add accessors for the two new instance data and a toString which will add to Assignment.BasketballPlayer’s toString both yearsInLeague and role. Finally, implement a method called newContractValue which returns an int value based on the logic in the following table.
 
 | Value (using get Value()) | Years in League | Role    | Return value |
 |---------------------------|-----------------|---------|--------------|
@@ -110,4 +114,4 @@ Again, empty entries in the table mean “any value”. NOTE: because of the log
 
 Compile this class and fix any errors.
 
-Finally, create a user class with an empty main method. On the website, next to the link for this assignment is a link for some Java code. Copy that into this user class to be the main method. In the code, you will see three variables, bp1, bp2 and bp3, declared as a BasketballPlayer, CollegeBasketballPlayer and ProBasketballPlayer respectively. Notice that bp1 could take on an object of BasketballPlayer, CollegeBasketballPlayer or ProBasketballPlayer but bp2 and bp3 are limited to just their declared type. The code then performs various instantiations and message passing on bp1, bp2 and bp3. You will notice some instructions have syntax errors. Before trying to compile the program, comment out the instructions that have syntax errors and add in comments next to those instructions the reason for the errors
+Finally, create a user class with an empty main method. On the website, next to the link for this assignment is a link for some Java code. Copy that into this user class to be the main method. In the code, you will see three variables, bp1, bp2 and bp3, declared as a Assignment.BasketballPlayer, Assignment.CollegeBasketballPlayer and Assignment.ProBasketballPlayer respectively. Notice that bp1 could take on an object of Assignment.BasketballPlayer, Assignment.CollegeBasketballPlayer or Assignment.ProBasketballPlayer but bp2 and bp3 are limited to just their declared type. The code then performs various instantiations and message passing on bp1, bp2 and bp3. You will notice some instructions have syntax errors. Before trying to compile the program, comment out the instructions that have syntax errors and add in comments next to those instructions the reason for the errors

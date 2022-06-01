@@ -1,3 +1,5 @@
+package Assignment;
+
 import javax.swing.text.Position;
 
 public class BasketballPlayer {
@@ -66,7 +68,7 @@ public class BasketballPlayer {
 
     @Override
     public String toString() {
-        return "BasketballPlayer{" +
+        return "Assignment.BasketballPlayer{" +
                 "name='" + name + '\'' +
                 ", position='" + position + '\'' +
                 ", team='" + team + '\'' +

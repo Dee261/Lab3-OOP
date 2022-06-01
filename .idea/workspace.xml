@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62b6aef2-5cca-46bd-bfe9-4557d765c430" name="Changes" comment="Assignment">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Exercise2/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Exercise2/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Exercise2/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Exercise2/Tester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Exercise3/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Exercise3/AccountTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Exercise3/Bank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Exercise3/CurrentAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Exercise3/SavingsAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LeapYear.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Account.java" beforeDir="false" />
-    </list>
+    <list default="true" id="62b6aef2-5cca-46bd-bfe9-4557d765c430" name="Changes" comment="Exercise 1,2,3." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -163,7 +149,7 @@
       <workItem from="1653426496377" duration="481000" />
       <workItem from="1653427047997" duration="4985000" />
       <workItem from="1654066376785" duration="8078000" />
-      <workItem from="1654080283397" duration="1925000" />
+      <workItem from="1654080283397" duration="2240000" />
     </task>
     <task id="LOCAL-00001" summary="Initial configuration">
       <created>1652691174410</created>
@@ -193,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653426926741</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Exercise 1,2,3.">
+      <created>1654082677165</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1654082677165</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,6 +207,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial configuration" />
     <MESSAGE value="Assignment" />
-    <option name="LAST_COMMIT_MESSAGE" value="Assignment" />
+    <MESSAGE value="Exercise 1,2,3." />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercise 1,2,3." />
   </component>
 </project>

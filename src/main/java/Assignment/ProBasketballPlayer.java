@@ -1,4 +1,8 @@
-public class ProBasketballPlayer extends BasketballPlayer{
+package Assignment;
+
+import Assignment.BasketballPlayer;
+
+public class ProBasketballPlayer extends BasketballPlayer {
         private final int yearsInLeague;
         private final String role;
 

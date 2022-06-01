@@ -1,3 +1,7 @@
+package Exercise1;
+
+import Exercise1.LeapYearDecider;
+
 import java.util.Scanner;
 
 public class LeapYearTester {
